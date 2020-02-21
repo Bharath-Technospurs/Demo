@@ -1,0 +1,14 @@
+{
+    "resourceBasePath": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/ts",
+    "appName": "app1",
+    "clientResources": {
+        "version": 1,
+        "package": "client.zip"
+    },
+    "appResources": {
+        "version": 1,
+        "package": "app1.json"
+    },
+    "firstScreen": "login.json",
+    "logLevel": "debug"
+}
