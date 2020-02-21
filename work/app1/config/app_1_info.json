@@ -7,7 +7,7 @@
     },
     "appResources": {
         "version": 1,
-        "package": "app1.json"
+        "package": "app1.zip"
     },
     "firstScreen": "login.json",
     "logLevel": "debug"
