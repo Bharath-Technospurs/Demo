@@ -1,5 +1,5 @@
 {
-    "resourceBasePath": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/ts",
+    "resourceBasePath": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/tree/master/work",
     "appName": "app1",
     "clientResources": {
         "version": 1,
@@ -7,7 +7,7 @@
     },
     "appResources": {
         "version": 1,
-        "package": "app1.zip"
+        "package": "app1/app1.zip"
     },
     "firstScreen": "login.json",
     "logLevel": "debug"
