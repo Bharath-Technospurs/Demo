@@ -2,11 +2,11 @@
     "resourceBasePath": "https://github.com/BharathRamakrishnanTS/Demo/raw/master/work",
     "appName": "app1",
     "clientResources": {
-        "version": 2,
-        "package": "client2.zip"
+        "version": 1,
+        "package": "client.zip"
     },
     "appResources": {
-        "version": 2,
+        "version": 1,
         "package": "app1/app1.zip"
     },
     "firstScreen": "login.json",
