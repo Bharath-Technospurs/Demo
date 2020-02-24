@@ -1,0 +1,8 @@
+{
+    "screen": {
+        "name": "login",
+        "parent": "",
+        "addViews": [],
+        "removeViews": []
+    }
+}
