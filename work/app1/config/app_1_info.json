@@ -2,8 +2,8 @@
     "resourceBasePath": "https://github.com/BharathRamakrishnanTS/Demo/raw/master/work",
     "appName": "app1",
     "clientResources": {
-        "version": 1,
-        "package": "client.zip"
+        "version": 2,
+        "package": "client2.zip"
     },
     "appResources": {
         "version": 2,
