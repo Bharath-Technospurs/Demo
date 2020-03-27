@@ -3,7 +3,7 @@
 		"background": {
 			"textfield": {
 				"primary": {
-					"base": "{color.white}",
+					"base": "{color.blue}",
 					"focus": "{color.blue}",
 					"disabled": "{color.gray}"
 				}
@@ -24,7 +24,7 @@
 				"primary": {
 					"radius": "{radius.small}",
 					"width": "{borderSize.small}",
-					"color": "{color.red}"
+					"color": "{color.green}"
 				}
 			}
 		}
