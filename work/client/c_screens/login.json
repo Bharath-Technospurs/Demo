@@ -1,8 +1,12 @@
 {
     "screen": {
         "name": "login",
-        "parent": "",
-        "addViews": [],
-        "removeViews": []
+        "layout": [{
+            "viewType": "pStackview",
+            "percentages": [15, 75, 10],
+            "children": [{
+                "viewType": "imageview"
+            }]
+        }]
     }
 }

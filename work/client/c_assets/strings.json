@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Title",
+        "version": "${version}"
+    },
+    "common": {
+        "info": "message"
+    },
+    "error": {
+        "network_failure": "network cannot connect to internet"
+    },
+    "alert": {
+        "permission": "Do you want to close this action?"
+    }
+}
+
+// Usage
+// ${display.title}
+// ${common.info} 
+// 

@@ -10,5 +10,8 @@
         "package": "app1/app1.zip"
     },
     "firstScreen": "login.json",
-    "logLevel": "debug"
+    "logLevel": {
+        "ui": "debug",
+        "sdk": "debug"
+    }
 }
