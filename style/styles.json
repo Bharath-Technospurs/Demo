@@ -3,7 +3,7 @@
 		"background": {
 			"textfield": {
 				"primary": {
-					"base": "{colorGray.value}",
+					"base": "{colorWhite.value}",
 					"focus": "{colorWhite.value}",
 					"disabled": "{colorGray.value}"
 				}
@@ -22,8 +22,8 @@
 		"border": {
 			"textfield": {
 				"primary": {
-					"radius": "{radiusSmall.value}",
-					"width": "{border1.value}",
+					"radius": "{radiusCustom2.value}",
+					"width": "{border2.value}",
 					"color": "{colorBlue.value}"
 				}
 			}
