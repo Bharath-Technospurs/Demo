@@ -1,1 +1,42 @@
 
+{
+    "color": {
+        "background": {
+            "button": {
+                "primary": {
+                    "base": "colorBlack.value",
+                    "active": "colorBlue.hexValue",
+                    "disabled": "colorBrown.rgbValue"
+                },
+                "secondary": {
+                    "base": "",
+                    "active": "",
+                    "inactive": ""
+                },
+                "tertiary": {
+                    "base": "",
+                    "active": "",
+                    "inactive": ""
+                }
+            }
+        },
+        "text": {
+            "button": {
+                "primary": {
+                    "base": "",
+                    "active": "",
+                    "inactive": ""
+                }
+            }
+        },
+        "border": {
+            "button": {
+                "primary": {
+                    "base": "",
+                    "active": "",
+                    "inactive": ""
+                }
+            }
+        }
+    }
+}
