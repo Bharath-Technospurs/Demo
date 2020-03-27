@@ -1,17 +1,19 @@
 {
-    "resourceBasePath": "https://github.com/BharathRamakrishnanTS/Demo/raw/master/work",
-    "appName": "app1",
-    "clientResources": {
-        "version": 2,
-        "package": "client.zip"
-    },
-    "appResources": {
-        "version": 1,
-        "package": "app1/app1.zip"
-    },
-    "firstScreen": "login.json",
-    "logLevel": {
-        "ui": "debug",
-        "sdk": "debug"
-    }
+	"resourceBasePath": "",
+	"appName": "appName",
+	"clientResources": {
+		"version": 1,
+		"package": "client.zip"
+	},
+	"appResources": {
+		"version": 1,
+		"package": "app.zip"
+	},
+	"serviceLayerPath": "",
+	"firstScreen": "first_screen.json",
+	"logLevel": {
+		"gonogoApp": "info",
+		"gngCFramework": "debug",
+		"duiFramework": "info"
+	}
 }

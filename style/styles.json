@@ -1,0 +1,32 @@
+{
+	"color": {
+		"background": {
+			"textfield": {
+				"primary": {
+					"base": "{color.white}",
+					"focus": "{color.blue}",
+					"disabled": "{color.gray}"
+				}
+			}
+		},
+		"text": {
+			"textfield": {
+				"primary": {
+					"base": "{color.black}",
+					"disabled": "{color.gray}",
+					"size": "{fontSize.size3}",
+					"font": "{font.family1}"
+				}
+			}
+		},
+		"border": {
+			"textfield": {
+				"primary": {
+					"radius": "{radius.small}",
+					"width": "{borderSize.small}",
+					"color": "{color.green}"
+				}
+			}
+		}
+	}
+}
