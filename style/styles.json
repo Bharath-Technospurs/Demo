@@ -12,7 +12,7 @@
 		"text": {
 			"textfield": {
 				"primary": {
-					"base": "{colorBlack.value}",
+					"base": "{colorMagenta.value}",
 					"disabled": "{colorBlack.value}",
 					"size": "{fontSizeNormal.value}",
 					"font": "{fontRobotic.value}"
