@@ -1,42 +1,31 @@
-
 {
-    "color": {
-        "background": {
-            "button": {
-                "primary": {
-                    "base": "colorBlack.value",
-                    "active": "colorBlue.hexValue",
-                    "disabled": "colorBrown.rgbValue"
-                },
-                "secondary": {
-                    "base": "",
-                    "active": "",
-                    "inactive": ""
-                },
-                "tertiary": {
-                    "base": "",
-                    "active": "",
-                    "inactive": ""
-                }
-            }
-        },
-        "text": {
-            "button": {
-                "primary": {
-                    "base": "",
-                    "active": "",
-                    "inactive": ""
-                }
-            }
-        },
-        "border": {
-            "button": {
-                "primary": {
-                    "base": "",
-                    "active": "",
-                    "inactive": ""
-                }
-            }
-        }
-    }
+	"color": {
+		"background": {
+			"textfield": {
+				"primary": {
+					"base": "{color.red}",
+					"focus": "{color.blue}",
+					"disabled": "{color.gray}"
+				}
+			}
+		},
+		"text": {
+			"textfield": {
+				"primary": {
+					"base": "{color.black}",
+					"disabled": "{color.gray}",
+					"size": "{fontSize.size3}"
+				}
+			}
+		},
+		"border": {
+			"textfield": {
+				"primary": {
+					"radius": "{radius.small}",
+					"width": "{borderSize.small}",
+					"color": "{color.silver}"
+				}
+			}
+		}
+	}
 }
