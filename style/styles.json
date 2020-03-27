@@ -3,7 +3,7 @@
 		"background": {
 			"textfield": {
 				"primary": {
-					"base": "{color.silver}",
+					"base": "{color.white}",
 					"focus": "{color.blue}",
 					"disabled": "{color.gray}"
 				}
