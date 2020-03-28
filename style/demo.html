@@ -41,7 +41,7 @@
             labelColor = this.getTokenValue(labelColor);
             var labelFontSize = styles["color"]["text"]["label"]["primary"]["size"];
             labelFontSize = this.getTokenValue(labelFontSize);
-            var labelFont = styles["color"]["text"]["label"]["primary"]["size"];
+            var labelFont = styles["color"]["text"]["label"]["primary"]["font"];
             labelFont = this.getTokenValue(labelFont);
 
             // TextField
@@ -52,14 +52,14 @@
             textField.style.borderColor = borderColor;
             textField.style.color = textColor;
             textField.style.fontSize = fontSize;
-            textField.style.font = font;
+            textField.style.fontFamily = font;
             textField.style.borderRadius = borderRadius + "px";
 
             // Label
             var label = document.getElementById("demolabel");
             label.style.color = labelColor;
-            textField.style.fontSize = labelFontSize;
-            textField.style.font = labelFont;
+            label.style.fontSize = labelFontSize;
+            label.style.fontFamily = labelFont; 
         }
 
         function getTokenValue(input) {
