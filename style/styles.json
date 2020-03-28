@@ -27,7 +27,7 @@
 				"primary": {
 					"base": "{colorPurple.value}",
 					"size": "{fontSizeNormal.value}",
-					"font": "{fontCopperplate.value}"
+					"font": "{fontRobotic.value}"
 				}
 			}
 		},
