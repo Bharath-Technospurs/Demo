@@ -7,6 +7,11 @@
 					"focus": "{colorWhite.value}",
 					"disabled": "{colorGray.value}"
 				}
+			},
+			"label": {
+				"primary": {
+					"base": "{colorWhite.value}"
+				}
 			}
 		},
 		"text": {
@@ -14,6 +19,13 @@
 				"primary": {
 					"base": "{colorMagenta.value}",
 					"disabled": "{colorBlack.value}",
+					"size": "{fontSizeNormal.value}",
+					"font": "{fontRobotic.value}"
+				}
+			},
+			"label": {
+				"primary": {
+					"base": "{colorBlack.value}",
 					"size": "{fontSizeNormal.value}",
 					"font": "{fontRobotic.value}"
 				}
