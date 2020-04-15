@@ -1,9 +1,44 @@
 {
-    "version": "1.0.3",
-    "cdn_url": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/lentra",
-    "app_name": "demo1",
-    "commonFiles": "client.zip",
-    "appFiles": "demo1.zip",
-    "firstScreen": "demo1/layouts/main_screen.json",
-    "extras": ""
+  "resourcesBasePath": "",
+  "appName": "hdfc",
+  "clientResources": {
+    "version": 1,
+    "package": "hdfc.zip"
+  },
+  "productResources": [
+    {
+      "product": "consumer_durable",
+      "version": 1,
+      "package": "cd.zip"
+    }
+  ],
+  "firstScreen": "login_screen.json",
+  "logLevel": {
+    "gonogoApp": "info",
+    "gngCFramework": "debug",
+    "duiFramework": "info"
+  },
+  "environments": {
+    "gngServiceLayerPath": "",
+    "isProd": true,
+    "buildVariantParams": {
+      "versionCode": 1007,
+      "versionName": 1,
+      "username": "A35940",
+      "password": "password@123",
+      "defaultOtp": "11111",
+      "applicantPosition": "-1",
+      "isStubActive": false,
+      "isToCheckRoot": true,
+      "isToDisableScreenshot": true,
+      "isToEnableKarza": true,
+      "stubValue": "-1",
+      "otpStub": "-1",
+      "biometricEnviroment": "",
+      "preForPidOption": "Y",
+      "nsdlEnvironment": "",
+      "isGoogleAnalyticsActive": false,
+      "bankingType": "Primary"
+    }
+  }
 }
