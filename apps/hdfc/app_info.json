@@ -1,18 +1,16 @@
 {
-  "resourcesBasePath": "",
+  "resourcesBasePath": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/apps/hdfc",
   "appName": "hdfc",
   "clientResources": {
     "version": 1,
     "package": "hdfc.zip"
   },
-  "productResources": [
-    {
-      "product": "consumer_durable",
-      "version": 1,
-      "package": "cd.zip"
-    }
-  ],
-  "firstScreen": "login_screen.json",
+  "productResources": [{
+    "product": "consumer_durable",
+    "version": 1,
+    "package": "hdfc_cd.zip"
+  }],
+  "firstScreen": "hdfc/c_screens/login_screen.json",
   "logLevel": {
     "gonogoApp": "info",
     "gngCFramework": "debug",

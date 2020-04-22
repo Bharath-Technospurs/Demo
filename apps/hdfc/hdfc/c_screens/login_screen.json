@@ -1,9 +1,152 @@
 {
-    "version": "1.0.3",
-    "cdn_url": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/lentra",
-    "app_name": "demo1",
-    "commonFiles": "client.zip",
-    "appFiles": "demo1.zip",
-    "firstScreen": "demo1/layouts/main_screen.json",
-    "extras": ""
+    "screen": {
+        "name": "S_HDFC_LOGIN",
+        "theme": "{themes.json}",
+        "actions": [],
+        "elements": [{
+            "type": "CUSTOM_STACK_VIEW",
+            "id": "APP_S_HDFC_LOGIN_CS_001",
+            "uiKey": "",
+            "props": {
+                "axis": "horizontal",
+                "spacing": [25, 55, 20]
+            },
+            "styleRef": "{style_ref_name}",
+            "elements": [{
+                    "type": "HORIZONTAL_STACK_VIEW",
+                    "id": "APP_S_HDFC_LOGIN_HS_001",
+                    "uiKey": "",
+                    "props": {
+                        "distribution": "fill",
+                        "alignment": "fill",
+                        "spacing": "{style.spacing}"
+                    },
+                    "styleRef": "{style.ref}",
+                    "elements": [{
+                        "type": "IMAGE_VIEW",
+                        "id": "APP_S_HDFC_LOGIN_IV_001",
+                        "uiKey": "logo",
+                        "props": {
+                            "image": "{}"
+                        },
+                        "styleRef": "{style.ref}",
+                        "actions": []
+                    }]
+                },
+                {
+                    "type": "HORIZONTAL_STACK_VIEW",
+                    "id": "APP_S_HDFC_LOGIN_HS_002",
+                    "uiKey": "",
+                    "props": {
+                        "distribution": "fill",
+                        "alignment": "fill",
+                        "spacing": "{style.spacing}"
+                    },
+                    "styleRef": "{style.ref}",
+                    "elements": [{
+                            "type": "LABEL",
+                            "id": "APP_S_HDFC_LOGIN_L_001",
+                            "uiKey": "username_label",
+                            "props": {
+                                "text": "{strings.username}"
+                            },
+                            "styleRef": "{style.ref}"
+                        },
+                        {
+                            "type": "TEXT_FIELD",
+                            "id": "APP_S_HDFC_LOGIN_TF_001",
+                            "uiKey": "username",
+                            "props": {
+                                "text": "",
+                                "placeholder": "{strings.placeholder.username}",
+                                "errorText": "{strings.error.username}"
+                            },
+                            "styleRef": "{style.ref}",
+                            "actions": [{
+                                "type": "validation",
+                                "args": {
+                                    "v_type": "required",
+                                    "message": "{error.username_required}"
+                                }
+                            }]
+                        },
+                        {
+                            "type": "LABEL",
+                            "id": "APP_S_HDFC_LOGIN_L_002",
+                            "uiKey": "password_label",
+                            "props": {
+                                "text": "{strings.password}"
+                            },
+                            "styleRef": "{style.ref}"
+                        },
+                        {
+                            "type": "TEXT_FIELD",
+                            "id": "APP_S_HDFC_LOGIN_TF_002",
+                            "uiKey": "username",
+                            "props": {
+                                "text": "",
+                                "placeholder": "{strings.placeholder.password}",
+                                "errorText": "{strings.error.password}"
+                            },
+                            "styleRef": "{style.ref}",
+                            "actions": [{
+                                "type": "validation",
+                                "args": {
+                                    "v_type": "required",
+                                    "message": "{error.password_required}"
+                                }
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "type": "HORIZONTAL_STACK_VIEW",
+                    "id": "APP_S_HDFC_LOGIN_HS_003",
+                    "uiKey": "",
+                    "props": {
+                        "distribution": "fill",
+                        "alignment": "fill",
+                        "spacing": "{style.spacing}"
+                    },
+                    "styleRef": "{style.ref}",
+                    "elements": [{
+                            "type": "LABEL",
+                            "id": "APP_S_HDFC_LOGIN_L_003",
+                            "uiKey": "app_info_label",
+                            "props": {
+                                "text": "{strings.app_info}"
+                            },
+                            "styleRef": "{style.ref}"
+                        },
+                        {
+                            "type": "BUTTON",
+                            "id": "APP_S_HDFC_LOGIN_B_001",
+                            "uiKey": "login",
+                            "props": {
+                                "disable": false,
+                                "title": [{
+                                    "title": "{strings.login}",
+                                    "state": "normal"
+                                }]
+                            },
+                            "styleRef": "",
+                            "actions": [{
+                                "type": "click",
+                                "args": "onLogin"
+                            }]
+                        },
+                        {
+                            "type": "LABEL",
+                            "id": "APP_S_HDFC_LOGIN_L_004",
+                            "uiKey": "poweredby",
+                            "props": {
+                                "text": "{strings.poweredBy}"
+                            },
+                            "styleRef": "{style.ref}"
+                        }
+                    ]
+                }
+            ]
+        }]
+    }
 }

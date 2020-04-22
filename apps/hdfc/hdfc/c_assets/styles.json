@@ -1,9 +1,187 @@
 {
-    "version": "1.0.3",
-    "cdn_url": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/lentra",
-    "app_name": "demo1",
-    "commonFiles": "client.zip",
-    "appFiles": "demo1.zip",
-    "firstScreen": "demo1/layouts/main_screen.json",
-    "extras": ""
+    "color": {
+        "background": {
+            "generic":{ 
+                "default": ""
+            },
+            "generic1": {
+                "default": {
+                    "base": "",
+                    "focus": "",
+                    "disabled": ""
+                }
+            },
+            "alert": {
+                "default": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "destructive": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "custom": {
+                    "base": "",
+                    "disabled": ""
+                }
+            },
+            "checkbox": {
+                "default": {
+                    "active": "",
+                    "inactive": ""
+                }
+            }          
+        },
+        "text": {
+            "generic":{ 
+                "default": ""
+            },
+            "generic1": {
+                "default": {
+                    "base": "",
+                    "focus": "",
+                    "disabled": ""
+                }
+            },
+            "alert": {
+                "default": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "destructive": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "custom": {
+                    "base": "",
+                    "disabled": ""
+                }
+            },
+            "checkbox": {
+                "default": {
+                    "active": "",
+                    "inactive": ""
+                }
+            }
+        },
+        "border": {
+            "generic":{ 
+                "default": ""
+            },
+            "generic1": {
+                "default": {
+                    "base": "",
+                    "focus": "",
+                    "disabled": ""
+                }
+            },
+            "alert": {
+                "default": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "destructive": {
+                    "base": "",
+                    "disabled": ""
+                },
+                "custom": {
+                    "base": "",
+                    "disabled": ""
+                }
+            }
+        }
+    },
+    "shadow": {
+        "generic": {
+            "color": "",
+            "opacity": "",
+            "radius": "",
+            "offsetX": "",
+            "offsetY": ""
+        }
+    },
+    "font": {
+        "generic": {
+            "family": "",
+            "size": ""
+        }
+    },
+    "height": {
+        "generic": {
+            "default": ""
+        },
+        "generic1": {
+            "small": "",
+            "medium": "",
+            "large": "",
+            "custom": ""
+        }
+    },    
+    "opacity": {
+        "generic": {
+            "default": "",
+            "secondary": "",
+            "custom": ""
+        }
+    },
+    "radius": {
+        "generic": {
+            "default": "",
+            "secondary": "",
+            "custom": ""
+        }
+    },
+    "size": {
+        "text": {
+            "header": {
+                "h1": {
+                    "value": ""
+                },
+                "h2": {
+                    "value": ""
+                },
+                "h3": {
+                    "value": ""
+                },
+                "h4": {
+                    "value": ""
+                },
+                "h5": {
+                    "value": ""
+                }
+            },
+            "paragraph": {
+                "p1":{
+                    "value": ""
+                },
+                "p2":{
+                    "value": ""
+                }
+            },
+            "label": {
+                "default": "",
+                "secondary": "",
+                "custom": ""
+            },
+            "hint": {
+                "default": "",
+                "secondary": ""
+            }
+        }
+    },
+    "spacing": {
+        "generic": {
+            "default": "",
+            "secondary": "",
+            "custom": ""
+        }
+    },
+    "timing": {
+        "generic": {
+            "default": "",
+            "high": "",
+            "low": "",
+            "custom": ""
+        }
+    }    
 }
