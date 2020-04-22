@@ -2,7 +2,7 @@
   "resourcesBasePath": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/apps/hdfc",
   "appName": "hdfc",
   "clientResources": {
-    "version": 1,
+    "version": 2,
     "package": "hdfc.zip"
   },
   "productResources": [{
