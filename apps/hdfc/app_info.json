@@ -9,10 +9,6 @@
     "product": "consumer_durable",
     "version": 1,
     "package": "hdfc_cd.zip"
-  }, {
-    "product": "consumer_durable1",
-    "version": 1,
-    "package": "hdfc_cd11.zip"
   }],
   "firstScreen": "hdfc/c_screens/login_screen.json",
   "logLevel": {
